@@ -1,8 +1,8 @@
 # Avaloq
 
-Project Task
+##### Project Task
 
-Assignment
+###### Assignment
 
 During the assignment you will build an application which manages bookmarks.
 
@@ -11,13 +11,27 @@ During the assignment you will build an application which manages bookmarks.
 3. Create the user interface for displaying the bookmarks groupped by the "group" property.
 4. Enhance the existing application by adding the following new features: Add new bookmarks using a form, Delete bookmarks by clicking in the list
 
-Setup
+###### Setup Basic Part 1
 
-The project assumes you have latest node and npm installed.
+The project assumes you have the latest node and npm installed, alongside angular CLI installed. If not please follow the instructions found below:
 
-npm i 
+[Node/NPM](https://nodejs.org/en/docs/)
 
-ng serve -o
+[Angular CLI](https://cli.angular.io/)
 
-npm run server
+###### Setup Basic Part 2
+
+From this point on it is assumed NPM is being used.
+
+Install project dependencies using the below command:
+
+`npm i `
+
+Start project frontend using the below command:
+
+`ng serve -o`
+
+Start project backend simple json server using the command below:
+
+`npm run server`
 
