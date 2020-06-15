@@ -1,51 +1,51 @@
 {
   "bookmarks": [
     {
-      "Name": "BBC News",
-      "Url": "https://www.bbc.co.uk/news",
-      "Group": "Work",
+      "name": "BBC News",
+      "url": "https://www.bbc.co.uk/news",
+      "group": "Work",
       "id": 22
     },
     {
-      "Name": "Wall Street Journal",
-      "Url": "https://www.wsj.com/",
-      "Group": "Work",
+      "name": "Wall Street Journal",
+      "url": "https://www.wsj.com/",
+      "group": "Work",
       "id": 23
     },
     {
-      "Name": "Daily Mail",
-      "Url": "https://www.dailymail.co.uk/ushome/index.html",
-      "Group": "",
+      "name": "Daily Mail",
+      "url": "https://www.dailymail.co.uk/ushome/index.html",
+      "group": "",
       "id": 24
     },
     {
-      "Name": "Facebook",
-      "Url": "https://www.facebook.com/",
-      "Group": "Personal",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/",
+      "group": "Personal",
       "id": 26
     },
     {
-      "Name": "Instagram",
-      "Url": "https://www.instagram.com/",
-      "Group": "Personal",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/",
+      "group": "Personal",
       "id": 27
     },
     {
-      "Name": "FN London",
-      "Url": "https://www.fnlondon.com/",
-      "Group": "Work",
+      "name": "FN London",
+      "url": "https://www.fnlondon.com/",
+      "group": "Work",
       "id": 28
     },
     {
-      "Name": "Sky News",
-      "Url": "https://news.sky.com/",
-      "Group": "Misc",
+      "name": "Sky News",
+      "url": "https://news.sky.com/",
+      "group": "Misc",
       "id": 29
     },
     {
-      "Name": "Fluent2",
-      "Url": "https://fluent2.co.uk/",
-      "Group": "Personal",
+      "name": "Fluent2",
+      "url": "https://fluent2.co.uk/",
+      "group": "Personal",
       "id": 30
     }
   ]
