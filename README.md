@@ -39,6 +39,15 @@ Start project backend simple json server using the command below:
 
 ![Homepage](/screenshots/shot_1.png)
 Bookmark Manager, home screen. Bookmarks are group by their respective group.
-
 ![Add Bookmark](/screenshots/shot_2.png)
 Book Manager, add screen.
+
+###### Sources
+
+As this was my first time using angular, I had to use several sources, these are listed below:
+
+[Simple Angular app using ngrx 8+ store and effects factory methods](https://medium.com/@RupaniChirag/simple-angular-app-using-ngrx-8-store-and-effects-factory-methods-f3423b9f6d3b)
+[Angular](https://angular.io/)
+[NgRx](https://ngrx.io/docs)
+[Pipe Function in JavaScript](https://medium.com/@venomnert/pipe-function-in-javascript-8a22097a538e)
+[JSONPlaceholder](http://jsonplaceholder.typicode.com/)
