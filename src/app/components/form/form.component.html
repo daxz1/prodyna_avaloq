@@ -1,0 +1,26 @@
+<mat-card class="container">
+  <h4>Add new Bookmark</h4>
+  <form (ngSubmit)="createBookmark()" class="form">
+    <mat-form-field class="form-element">
+      <input matInput required placeholder="Enter Bookmark Name" [(ngModel)]="name" name="name">
+    </mat-form-field>
+    <mat-form-field class="form-element">
+      <input matInput required placeholder="Enter Bookmark URL" [(ngModel)]="url" name="url">
+    </mat-form-field>
+    <mat-form-field class="form-element">
+      <mat-label>Group</mat-label>
+      <select matNativeControl required [(ngModel)]="group" name="group">
+        <option value="Personal">Personal</option>
+        <option value="Work">Work</option>
+        <option value="Entertainment">Entertainment</option>
+        <option value="Misc">Misc</option>
+      </select>
+    </mat-form-field>
+    <mat-button-toggle-group class="form-buttons">
+      <div>
+        <button mat-raised-button mat-dialog-close class="btn">Cancel</button>
+        <button mat-raised-button color="primary" class="btn">Add</button>
+      </div>
+    </mat-button-toggle-group>
+  </form>
+</mat-card>

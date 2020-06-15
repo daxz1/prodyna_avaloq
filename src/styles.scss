@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.mat-icon {
+  cursor: pointer;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+.mat-card {
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+.mat-card:not([class*=mat-elevation-z]) {
+  box-shadow: none;
+}
+
+
+
+.container {
+  .item {
+    margin: 5px 0;
+  }
+}
+
+
+

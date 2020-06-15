@@ -1,0 +1,52 @@
+{
+  "bookmarks": [
+    {
+      "Name": "BBC News",
+      "Url": "https://www.bbc.co.uk/news",
+      "Group": "Work",
+      "id": 22
+    },
+    {
+      "Name": "Wall Street Journal",
+      "Url": "https://www.wsj.com/",
+      "Group": "Work",
+      "id": 23
+    },
+    {
+      "Name": "Daily Mail",
+      "Url": "https://www.dailymail.co.uk/ushome/index.html",
+      "Group": "",
+      "id": 24
+    },
+    {
+      "Name": "Facebook",
+      "Url": "https://www.facebook.com/",
+      "Group": "Personal",
+      "id": 26
+    },
+    {
+      "Name": "Instagram",
+      "Url": "https://www.instagram.com/",
+      "Group": "Personal",
+      "id": 27
+    },
+    {
+      "Name": "FN London",
+      "Url": "https://www.fnlondon.com/",
+      "Group": "Work",
+      "id": 28
+    },
+    {
+      "Name": "Sky News",
+      "Url": "https://news.sky.com/",
+      "Group": "Misc",
+      "id": 29
+    },
+    {
+      "Name": "Fluent2",
+      "Url": "https://fluent2.co.uk/",
+      "Group": "Personal",
+      "id": 30
+    }
+  ]
+}

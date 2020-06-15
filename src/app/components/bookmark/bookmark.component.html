@@ -1,0 +1,26 @@
+<mat-toolbar>
+  <mat-toolbar-row class="toolbar">
+    <span>Bookmark Manager</span>
+    <span class="spacer"></span>
+    <mat-icon (click)="openDialog()" [ngStyle]="{'color':'purple'}" >add_circle</mat-icon>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<mat-card class="container">
+  <mat-list role="list">
+    <mat-toolbar *ngFor="let bookmark of BookmarkList" class="item">
+      <mat-toolbar-row>
+        <div class="bookmarks">
+          <span>
+            <a target="_blank" href="{{bookmark.url}}">{{bookmark.name}}</a>
+          </span>
+          <span>
+            {{bookmark.group}}
+          </span>
+        </div>
+        <span class="spacer"></span>
+        <mat-icon (click)="deleteBookmark(bookmark.id)" [ngStyle]="{'color':'red'}">delete_forever</mat-icon>
+      </mat-toolbar-row>
+    </mat-toolbar>
+  </mat-list>
+</mat-card>
