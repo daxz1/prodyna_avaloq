@@ -8,8 +8,13 @@ import BookmarkModel from '../models/bookmark.model';
 })
 
 export class BookmarkHttpService {
+
   private API_URL = 'http://localhost:3000/bookmarks';
 
+  /**
+   *
+   * @param httpClient
+   */
   constructor(private httpClient: HttpClient) {}
 
   getBookmarks(): Observable<BookmarkModel[]> {

@@ -10,6 +10,11 @@ import {BookmarkHttpService} from '../services/bookmark.httpservice';
 @Injectable()
 export class FormsEffects {
 
+  /**
+   *
+   * @param bookmarkHttpService
+   * @param action$
+   */
   constructor(private bookmarkHttpService: BookmarkHttpService, private action$: Actions) {}
 
   CreateBookmark$: Observable<Action> = createEffect(() =>

@@ -10,6 +10,11 @@ import {BookmarkHttpService} from '../services/bookmark.httpservice';
 @Injectable()
 export class BookmarkEffects {
 
+  /**
+   *
+   * @param bookmarkHttpService
+   * @param action$
+   */
   constructor(private bookmarkHttpService: BookmarkHttpService, private action$: Actions) {}
 
   GetBookmarks$: Observable<Action> = createEffect(() =>
@@ -43,6 +48,4 @@ export class BookmarkEffects {
       )
     )
   );
-
-
 }
