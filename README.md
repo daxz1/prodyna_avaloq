@@ -35,3 +35,9 @@ Start project backend simple json server using the command below:
 
 `npm run server`
 
+###### Screenshots
+
+![Homepage](/screenshots/shot_1.png)
+
+![Add Bookmark](/screenshots/shot_2.png)
+
