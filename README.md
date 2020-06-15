@@ -38,6 +38,5 @@ Start project backend simple json server using the command below:
 ###### Screenshots
 
 ![Homepage](/screenshots/shot_1.png)
-
 ![Add Bookmark](/screenshots/shot_2.png)
 
