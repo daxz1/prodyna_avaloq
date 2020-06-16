@@ -46,6 +46,7 @@ Book Manager, add screen.
 
 - If this was a production project, I would write tests and try to maintain a near 100% code coverage. Here is an example of a personal project that has 100% test coverage written in react/redux [MyNextRoll](https://bitbucket.org/nim_sathi/mynextroll/src/master/)
 - React vs Angular
+- Forms - Use form validation, use angular form module to generate forms.
 
 ###### Sources
 
